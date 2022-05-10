@@ -1,6 +1,6 @@
 import "./styles.css";
 
-function Title(props) {
+function title(props) {
   return (
     <h1 className="title" name={props.name}>
       Welcome, {props.name}!
@@ -8,4 +8,4 @@ function Title(props) {
   );
 }
 
-export default Title;
+export default title;
